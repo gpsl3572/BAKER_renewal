@@ -1,0 +1,48 @@
+/* body{
+    font-family: 'Damion', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+} */
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+header, .sec, footer{
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+header, section, footer{
+    width: 100vw;
+}
+
+
+.title_btn{
+    display: flex;
+    text-transform: uppercase;
+    width: 270px;
+    height: 55px;
+    background-color: #C1413E;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 35px;
+    cursor: default;
+
+}

@@ -1,0 +1,81 @@
+.sec5{
+    height: 110vh;
+}
+
+.sec5_bg{
+    width: 30%;
+    height: 100%;
+    background-color: #C1413E;
+    position: relative;
+
+}
+
+.sec5_conwrap{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 150px 50px 150px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec5_leftcon{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.sec5_leftcon h3{
+    margin-bottom: 50px;
+}
+
+.sec5_imgbox{
+    width: 100%;
+    height: 425px;
+    background-color: #C1413E;
+    background: url(/img/FA19_Skate_Baker_FootwearCollection.webp) no-repeat center/cover;
+}
+
+.sec5_rightcon{
+    width: 40%;
+    height: 100%;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.day{
+    color: #bbbbbb;
+    font-size: 0.97em;
+}
+
+.subtitle{
+    font-size: 1.8em;
+    font-weight: 800;
+    margin: 10px 0 50px 0;
+}
+
+.text{
+    font-size: 1.2em;
+    color: #3f3f3f;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.text a{
+    letter-spacing: -1px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+
