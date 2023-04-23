@@ -2,7 +2,7 @@
     height: 100%;
     padding: 150px;
     box-sizing: border-box;
-    background: url(/img/sec4_bg.png) no-repeat center/ cover;
+    background: url(../../img/sec4_bg.png) no-repeat center/ cover;
 }
 
 .sec4_contain{
@@ -92,6 +92,6 @@
 
 .sec4_con2bg{
     height: 80%;
-    background:  url(/img/331153726_906096363964101_2273087825780099001_n.jpg) no-repeat center / 90%;
+    background:  url(../../img/331153726_906096363964101_2273087825780099001_n.jpg) no-repeat center / 90%;
     transform: translateY(50px);
 }
