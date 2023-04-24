@@ -1,12 +1,18 @@
 .sec2{
-    height: 100vh;
-    margin-top: 500px;
-    margin-bottom: 250px;
-    background-color: antiquewhite;
     background-attachment: fixed;
 }
 
 video{
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+
+
+    video{
+        height: 100vh;
+    }
+ 
+/* media end */
 }

@@ -1,5 +1,5 @@
 .sec1{
-    height: 200vh;
+    height: 280vh;
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
@@ -97,15 +97,30 @@ h6{
     top: 1250px;
 }
 
+.sec1_moconwrap{
+    display: none;
+}
+
 .sec1_con5 img, .sec1_con6 img{
     transform: scale(1.1);
 }
 
 @media screen and (max-width:768px) {
 
+    .sec1_conwrap{
+        display: none;
+    }
+    .sec1_moconwrap{
+        display: block;
+    }
+
     .sec1{
         flex-direction: column;
         justify-content: unset;
+        width: 100vw;
+        height: 100%;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     .sec1 .title{
@@ -119,8 +134,21 @@ h6{
         line-height: 50px;
     }
 
-    .sec1_conwrap{
-        display: none;
+    .sec1_moconwrap{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 40px;
+        z-index: 10;
+    }
+
+    .sec1_moconbox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        --swiper-theme-color: #c13e4b;
     }
 
     

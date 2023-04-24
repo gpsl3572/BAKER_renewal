@@ -32,3 +32,22 @@
         transform: scale(1.1);
         box-shadow: 0px 0px 10px #979797;
 }
+
+@media screen and (max-width:678px) {
+    
+    .sec3{
+        width: 100VW;
+        background-color: aquamarine;
+        padding: 150px 0 ;
+    }
+
+    .sec3_conwrap{
+        text-align: center;
+        width: 900px;
+    }
+
+  
+
+
+ /*  media end */
+}
