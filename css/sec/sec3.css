@@ -1,23 +1,26 @@
-.sec3{
-    height: 100%;
-    padding: 150px;
-    box-sizing: border-box;
-}
 
+.sec3{
+    padding: 150px;
+}
 
 .sec3_conwrap{
     width: 100%;
     height: 550px;
+}
+
+.sec3_conbox{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .sec3_con{
-    width: 30%;
+    width: 31%;
     height: 100%;
-    cursor: pointer;
-    transition: 0.1s;
+    overflow: hidden;
+    transition: .1s;
 }
 
 .sec3_con1{background: url(../../img/skating-g2c883eb25_1920.jpg) no-repeat center / cover;}
@@ -29,25 +32,30 @@
 .sec3_con3:hover{background: url(../../img/red3.png) no-repeat center / cover;}
 
 .sec3_con:hover{
-        transform: scale(1.1);
-        box-shadow: 0px 0px 10px #979797;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #979797;
 }
 
-@media screen and (max-width:678px) {
-    
+
+@media screen and (max-width:1240px) {
+
     .sec3{
-        width: 100VW;
-        background-color: aquamarine;
-        padding: 150px 0 ;
+        padding: 150px 50px;
     }
 
     .sec3_conwrap{
-        text-align: center;
-        width: 900px;
+        height: 450px;
     }
 
-  
+    .sec3 .con_title{
+        padding-left: 0;
+    }
+
+    
+    .sec3_conwrap{
+        height: 400px;
+    }
 
 
- /*  media end */
+ /*  1240 media end */
 }

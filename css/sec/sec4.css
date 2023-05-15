@@ -12,29 +12,20 @@
     align-items: center;
 }
 
-
 .sec4_con1{
     width: 65%;
-    height: 600px;
-}
-
-.slid_btnwrap{
-    width: 140px;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 
 .slid_btn{
-    width: 65px;
-    height: 100%; 
+    width: 70px;
+    height: 50px;
     background-color: #C1413E;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: #fff;
 }
 
 .slid_btn i{
@@ -44,31 +35,40 @@
 
 .slid_leftarrow{
   border-radius: 50px 0 0 50px;
+  position: absolute;
+  top: 30px; left: 0;
 }
 
 .slid_rightarrow{
+    position: absolute;
+    top: 30px; left: 100px;
     border-radius: 0 50px 50px 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
 }
 
 .slid_wrap{
     width: 100%;
-    height: 400px;
-    margin-top: 59px;
+    height: 495px;
+    margin-top: 50px;
+    position: relative;
     overflow: hidden;
 }
 
 .slid_in_wrap{
-    width: 1350px;
-    height: 100%;
+    height: 495px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 
 .sec4_con1box{
     width: 310px;
-    height: 350px;
-    background-color: #f2f2f2;
+    height: 390px;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,10 +77,8 @@
 
 
 .sec4_con1box img{
-   object-fit: cover;
+    width: 85%;
 }
-
-
 
 /* con1 end */
 
@@ -94,4 +92,72 @@
     height: 80%;
     background:  url(../../img/331153726_906096363964101_2273087825780099001_n.jpg) no-repeat center / 90%;
     transform: translateY(50px);
+}
+
+.sec4_mocontain{
+    display: none;
+}
+
+
+
+@media screen and (max-width:1400px) {
+
+    .slid_in_wrap{
+        height: 395px;
+    }
+  
+    .sec4_con2{
+        height: 400px;
+    }
+
+    .sec4_con1box{
+        height: 290px;
+    }
+    
+/* 1400media end */
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .sec4_mocontain{
+        display: block;
+    }
+    
+    .sec4_contain{
+        display: none;
+    }
+
+    .sec4{
+        padding: 150px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sec4 .con_title{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .sec4_mocon1{
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#C2363F;
+    }
+
+    .sec4_mocon1 img{
+        width: 60%;
+    }
+
+
+
+
+    
+/* 1200media end */
 }

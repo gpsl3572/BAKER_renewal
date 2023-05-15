@@ -105,15 +105,16 @@ h6{
     transform: scale(1.1);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1400px) {
 
+    
     .sec1_conwrap{
         display: none;
     }
     .sec1_moconwrap{
         display: block;
     }
-
+    
     .sec1{
         flex-direction: column;
         justify-content: unset;
@@ -151,6 +152,6 @@ h6{
         --swiper-theme-color: #c13e4b;
     }
 
-    
 
+/* 1400media end */
 }
