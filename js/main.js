@@ -27,11 +27,6 @@ var swiper = new Swiper(".sec1Swiper", {
 var swiper = new Swiper(".sec3Swiper", {
     slidesPerView: 1.3,
     spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-
 
     breakpoints: {
 
@@ -63,6 +58,18 @@ var swiper = new Swiper(".sec4Swiper", {
     prevEl: ".swiper-button-prev",
   },
 
+});
+// sec4
+
+var swiper = new Swiper(".sec4moSwiper", {
+  slidesPerView: 2.5,
+  spaceBetween: 30,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 
 });
+// sec4mo
 
